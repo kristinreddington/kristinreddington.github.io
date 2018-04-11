@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "First Milestone with CLI "
-date:       2018-04-11 20:56:12 +0000
+date:       2018-04-11 16:56:12 -0400
 permalink:  first_milestone_with_cli
 ---
 
@@ -11,7 +11,7 @@ Along the way, though, I realized that like everything with programming, there a
 
 After I began, I felt in the zone again, banging out most of my code that scraped a website rating products one-ten on their level of hazardous ingredients in about a day. Stuck on one bug, a one-on-one session helped me realize the site was relying on a lot of Javascript with very dynamic content. I then dabbled with the gem Poltergeist, a PhantomJS driver for Capybara. With a lot of trial and error, I realized that this website's format just wasn't going to make the cut for what I was trying to accomplish.  
 
-Moving onto a completely different webiste to scrape, I was able to re-work my old code, changing varialbe names and my scraper class to have a completely different gem without having to start from scratch. After a few days of fixing bugs and refactoring, I finally got a working program I felt good about. 
+Moving onto a completely different webiste to scrape, I was able to re-work my old code, changing variable names and my scraper class to have a completely different gem without having to start from scratch. After a few days of fixing bugs and refactoring, I finally got a working program I felt good about. 
 
 What I learned from doing this project is that things don't always go as planned- but that's okay. Although I was behind schedule, aong the way, I ran into some hurdles that forced me to learn new things, such as scraping websites with Javascript, the fundamentals of setting up a program, and problem-solving without the crutch of the Ask a Question feature. I really had to research and play around with different methods, as well as work with my peers to help stitch my project together. All of which I'm beginning to understand are the core of what being a coder really is.  
 
