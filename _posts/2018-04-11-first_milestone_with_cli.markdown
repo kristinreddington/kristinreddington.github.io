@@ -13,9 +13,9 @@ After I began, I felt in the zone again, banging out most of my code that scrape
 
 Moving onto a completely different webiste to scrape, I was able to re-work my old code, changing variable names and my scraper class to have a completely different gem without having to start from scratch. After a few days of fixing bugs and refactoring, I finally got a working program I felt good about. 
 
-What I learned from doing this project is that things don't always go as planned- but that's okay. Although I was behind schedule, aong the way, I ran into some hurdles that forced me to learn new things, such as scraping websites with Javascript, the fundamentals of setting up a program, and problem-solving without the crutch of the Ask a Question feature. I really had to research and play around with different methods, as well as work with my peers to help stitch my project together. All of which I'm beginning to understand are the core of what being a coder really is.  
+What I learned from doing this project is that things don't always go as planned- but that's okay. Although I was behind schedule, along the way, I ran into some hurdles that forced me to learn new things, such as scraping websites with Javascript, the fundamentals of setting up a program, and problem-solving without the crutch of the Ask a Question feature. I really had to research and play around with different methods, as well as work with my peers to help stitch my project together. All of which I'm beginning to understand are the core of what being a coder really is.  
 
-Programming is complex and overloaded with different ways of doing things that it's easy to forget that just because you're not where you planned to be, you may just be getting further by taking it slow. I'm learning to ackowlede problems that may not seem like the path of least resistence, but will open up a can of worms to more information, learning and ultimately - improvement.   
+Programming is complex and overloaded with information and different ways of doing things that it's easy to forget that just because you're not where you planned to be, you may just be getting further by taking it slow. I'm learning to ackowlede problems that definitely aren't the path of least resistence, but will open up a can of worms to more information, learning and ultimately - improvement.   
 
 
 
