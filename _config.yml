@@ -4,7 +4,7 @@ header-img: img/home-bg.png
 email: kristinreddington@gmail.com
 copyright_name: kristinreddington
 description: > # this means to ignore newlines until "baseurl:"
-  An aspiring coder's diary 
+  A coder's diary 
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  kristinreddington
