@@ -14,9 +14,7 @@ We'll run the command :
 
 
 
-
-![ ](https://drive.google.com/open?id=1FX4EYQYHjSG4-oWkJJI8bIHn23xz3eU4http://)
-
+![](./Downloads/Rais-new) 
 
 
 
