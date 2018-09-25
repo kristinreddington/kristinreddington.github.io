@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "A Ruby on Rails Guide for building a social app"
-date:       2018-09-25 23:13:40 +0000
+date:       2018-09-25 19:13:41 -0400
 permalink:  a_ruby_on_rails_guide_for_building_a_social_app
 ---
 
@@ -15,7 +15,8 @@ We'll run the command :
 
 
 
-![(https://drive.google.com/open?id=1FX4EYQYHjSG4-oWkJJI8bIHn23xz3eU4http://) ]
+![ ](https://drive.google.com/open?id=1FX4EYQYHjSG4-oWkJJI8bIHn23xz3eU4http://)
+
 
 
 
