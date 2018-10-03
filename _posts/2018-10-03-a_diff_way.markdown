@@ -1,0 +1,15 @@
+---
+layout: post
+title:      "a diff way "
+date:       2018-10-03 13:18:25 +0000
+permalink:  a_diff_way
+---
+
+
+My curiosity about React components updating the UI without manipulating the real DOM was something I found  peculiar...how and why? I mean, if that's not magic, I don't know what is. As a user, I can manipulate and interact with the browser, watch the GUI change and transform right before my eyes, all without actually changing the browser's DOM or even making a call to an API. My understanding before doing some minor digging was that once state was updated in React, the virtual DOM updated the page starting with the root node of the document's tree and then the user could see and interact with the updated components rendered on the screen. This was quite a thumbnail sketch understanding, of course. Of course this is just part of a well implemented and efficient algorithm known as diffing. 
+
+Across all platforms, mobile and web, React uses renderers that compares the old data tree to the new one when updates need to be shown to the user. The terminology for this update is reconcilatioin - with React's update to React Fiber, which was a complete rewrite of React's core algorithm back in 2017, the reconciler now uses data structures called fibers to keep track of where it is in the tree, and ultimately, for faster, better performance. 
+
+React implemented this by creating a hierarchy of updates according to priority. High priority updates, such as animations, are placed in the queue first while those with lower priority updates take seat behind those. With the fibers splitting code into more maintainable peices, React can make recursive calls without getting stuck beneath the main thread of the application, with more flexibility to check for additional computations to be made. The fibers, which keep track of where it is in the tree, make it possible to approach updating the tree in small chunks, with room to come up for air in between to see if there's more tasks to be done before completing the reconciliation. 
+
+The way React Fiber approaches fixing this single-thread issue by breaking the code into smaller peices is a good rule of thumb for problem solving: break the problem into smaller peices and approach each problem before merging or combining the solutions. 
